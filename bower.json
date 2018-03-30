@@ -1,0 +1,29 @@
+{
+  "name": "webkit-sassui-icon-minus",
+  "description": "Icon minus use html",
+  "main": [
+    "dist/webkit-sassui-icon-minus.css",
+    "dist/webkit-sassui-icon-minus.scss"
+  ],
+  "authors": [
+    "afei"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "webkit",
+    "cssui",
+    "icon-minus"
+  ],
+  "homepage": "https://github.com/afeiship/webkit-sassui-icon-minus",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src"
+  ]
+}

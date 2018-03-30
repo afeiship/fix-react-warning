@@ -1,0 +1,50 @@
+/*webkit-sassui-icon-minus Start*/
+$webkit-sassui-icon-minus-options:(
+  hairline: 1px,
+  thin: 2px,
+  heavy: 6px,
+);
+
+.webkit-sassui-icon-minus{
+  $hairline: map-get($map: $webkit-sassui-icon-minus-options, $key: hairline);
+  $thin: map-get($map: $webkit-sassui-icon-minus-options, $key: thin);
+  $heavy: map-get($map: $webkit-sassui-icon-minus-options, $key: heavy);
+
+  font-size: 10px;
+  width: 2em;
+  height:2em;
+  display: inline-block;
+  position: relative;
+
+
+  &[data-type=hairline]{
+    &:after{
+      border-width: 1px;
+    }
+  }
+
+  &[data-type=thin]{
+    &:after{
+      border-width: 2px;
+    }
+  }
+
+  &[data-type=heavy]{
+    &:after{
+      border-width: 6px;
+    }
+  }
+
+  &:after{
+    content:'';
+    display: block;
+    border-top-style: solid;
+    position: absolute;
+    left:0;
+    right:0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+}
+/*webkit-sassui-icon-minus End*/
