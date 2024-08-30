@@ -1,8 +1,7 @@
-import fn from '../src';
+import '../src';
 
 describe('api.basic', () => {
-  test('Normal single value case', () => {
-    const res = fn(1,2)
-    expect(res).toBe(3);
+  test('test normal console.error', () => {
+    console.error('test error');
   });
 });

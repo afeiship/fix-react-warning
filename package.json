@@ -1,6 +1,6 @@
 {
   "name": "@jswork/fix-react-warning",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fix react warning.",
   "files": [
     "dist"
@@ -25,5 +25,11 @@
     "access": "public",
     "registry": "https://registry.npmjs.org"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "keywords": [
+    "fix",
+    "prevent-warn",
+    "react",
+    "warning"
+  ]
 }
