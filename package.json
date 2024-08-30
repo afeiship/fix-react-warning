@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "Fix react warning.",
   "files": [
-    "dist",
-    "global.d.ts"
+    "dist"
   ],
   "scripts": {
     "build": "tsup",
