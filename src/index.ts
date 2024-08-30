@@ -12,3 +12,5 @@ console.error = (...args) => {
   }
   originalWarn(...args);
 };
+
+export default () => {};
